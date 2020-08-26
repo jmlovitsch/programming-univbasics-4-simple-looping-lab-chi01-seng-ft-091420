@@ -6,7 +6,7 @@
 #end
 #end
 
-def loop_message_five_times (string)
+def loop_message_five_times (message)
   count = 0 
   message = "Hello World."
   while count <5 do
