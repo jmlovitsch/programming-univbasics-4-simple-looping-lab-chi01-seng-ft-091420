@@ -39,6 +39,12 @@ def output_array(array)
     puts array[count]
     count += 1 
   end
+  array = ["Be yourself;", "everyone else is already taken", "- Oscar Wilde"]
+  count = 0
+  while count < array.length do
+    puts array[count]
+    count += 1 
+  end
 end
 
 def return_string_array (array)
@@ -56,5 +62,5 @@ describe 'output_array' do
   it 'takes in a message and a number outputs the message that number of times' do
     array = ["Be yourself;", "everyone else is already taken", "- Oscar Wilde"]
     expect { output_array(array) }.to output(/Be yourself;\neveryone else is already taken\n- Oscar Wilde/).to_stdout, "Expected:\n\nBe yourself;\neveryone else is already taken\n- Oscar Wilde"
-    array = [5, 4, 3, 2, 1]
+   array = [5, 4, 3, 2, 1]
     expect { output_array(array) }.to output(/5\n4\n3\n2\n1\n/).to_stdout
