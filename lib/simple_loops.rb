@@ -33,6 +33,7 @@ def loop_message_n_times (string, integer)
 end
 
 def output_array
+  array = ["Be yourself;", "everyone else is already taken", "- Oscar Wilde"]
   count = 0 
   while count < array.length do
     puts array[count]
