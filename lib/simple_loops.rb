@@ -33,7 +33,11 @@ def loop_message_n_times (string, integer)
 end
 
 def output_array
-  
+  count = 0 
+  while count < array.length do
+    puts array[count]
+    count += 1 
+  end
 end
 
 def return_string_array
