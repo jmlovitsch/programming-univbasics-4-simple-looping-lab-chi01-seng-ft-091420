@@ -39,7 +39,8 @@ def output_array(array)
     puts array[count]
     count += 1 
   end
-  array = ["Be yourself;", "everyone else is already taken", "- Oscar Wilde"]
+  
+  array = [5, 4, 3, 2, 1]
   count = 0
   while count < array.length do
     puts array[count]
