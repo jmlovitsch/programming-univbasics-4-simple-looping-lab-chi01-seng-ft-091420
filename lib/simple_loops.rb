@@ -23,6 +23,12 @@ def loop_message_n_times (string, integer)
     puts message
     count += 1 
   end
+  count = 0
+  message = "Hello Red Balloon."
+  number = 10
+  while count < number do
+    puts message
+    count += 1 
 end
 
 def output_array
